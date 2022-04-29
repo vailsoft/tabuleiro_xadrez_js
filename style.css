@@ -28,6 +28,9 @@
     footer, header, hgroup, menu, nav, section {
         display: block;
     }
+    *{
+        box-sizing: border-box;
+    }
     body {
         line-height: 1;
     }
@@ -55,9 +58,9 @@
         height: 100vh;
     }
     .chess_table{
-        width: 816px;
-        height: 816px;
-        border: black 1px solid;
+        width: 800px;
+        height: 800px;
+        /* border: black 1px solid; */
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
